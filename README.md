@@ -34,4 +34,57 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
    ```bash
    https://github.com/amanmodanwal28/CRUD-Posts-Application.git
 
-2. Navigate to the project directory:bash   
+2. Navigate to the project directory:
+    ```bash
+    cd CRUD-Posts-Application
+
+3. Install dependencies:
+   ```bash
+    npm install
+
+### Installation
+
+1. Start the server:
+    ```bash
+    node index.js
+
+2. Open your web browser and go to:
+   ```bash
+    http://localhost:3000/posts
+
+
+# Usage
+
+## Creating a Post
+
+1. Navigate to `/posts/new`.
+2. Fill in the form with a username and content.
+3. Click "Create Post" to add the post.
+
+## Viewing Posts
+
+1. Navigate to `/posts` to see all posts.
+2. Click on a post's title to view its details.
+
+## Editing a Post
+
+1. Navigate to `/posts/:id/edit` (replace `:id` with the actual post ID).
+2. Update the content and submit the form.
+
+## Deleting a Post
+
+1. Navigate to `/posts`.
+2. Click the "Delete" button next to the post you want to delete.
+
+## Technologies Used
+
+- **Node.js**: JavaScript runtime environment.
+- **Express.js**: Web framework for Node.js.
+- **EJS**: Embedded JavaScript templating.
+- **UUID**: Library to generate unique IDs.
+- **Method-Override**: Middleware to use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
+
+
+## License
+
+This project is licensed under the MIT License.
