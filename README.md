@@ -32,4 +32,6 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   https://github.com/amanmodanwal28/CRUD-Posts-Application.git
+
+2. Navigate to the project directory:bash   
