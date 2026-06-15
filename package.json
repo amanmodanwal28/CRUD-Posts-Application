@@ -1,14 +1,15 @@
 {
-    "name": "project",
+    "name": "crud-posts-application",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\\\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "description": "",
+    "description": "CRUD Posts App with Express and EJS",
     "dependencies": {
         "ejs": "^3.1.10",
         "express": "^4.19.2",
